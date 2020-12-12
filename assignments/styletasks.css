@@ -20,6 +20,13 @@ h1 {
 
 .project-grid {
     margin: auto;
+    text-shadow: 2px 2px black;
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    
 }
 
 img {
