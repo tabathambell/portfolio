@@ -1,0 +1,131 @@
+body {
+    background-image: url("./images/darkforest.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: #AFB0C4;
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 2px black;
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 50px;
+}
+
+h2 {
+    color: #AFB0C4;
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 2px black;
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.description {
+    color: whitesmoke;
+    font-family: 'Antic Slab', serif;
+    width: 500px;
+    margin: auto;
+}
+
+.description p {
+    text-align: justify;
+}
+
+.col {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 15px;
+    color: #616277;
+    opacity: 0.8;
+    text-shadow: 2px 2px black;
+}
+
+a {
+    color: #616277;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.link {
+    display: inline;
+    font-size: 30px;
+}
+
+.link a {
+    color: #616277;
+    text-shadow: 2px 2px black;
+    padding-right: 15px;
+}
+
+.link a:hover {
+    color: white;
+}
+
+.contact {
+    text-align: center;
+    padding-top: 10px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    filter: grayscale(70%);
+}
+
+/* use for projects */
+
+.information {
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.information img {
+    float: left;
+    padding-right: 40px;
+    border-radius: 50%;
+}
+
+.information img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+
+.information p {
+    padding-top: 20px;
+}
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
